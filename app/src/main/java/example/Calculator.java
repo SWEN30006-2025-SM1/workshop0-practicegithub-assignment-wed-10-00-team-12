@@ -15,7 +15,7 @@ public class Calculator {
 
     public double divide(int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("Division by zero is not allowed writen by Lam.");
+            throw new ArithmeticException("Division by zero is not allowed written by Lam.");
         }
         return (double) a / b;
     }
